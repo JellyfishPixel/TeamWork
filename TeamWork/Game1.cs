@@ -8,7 +8,7 @@ namespace TeamWork
     {
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
-
+        Texture2D MilkCharacter;
         public Game1()
         {
             _graphics = new GraphicsDeviceManager(this);
