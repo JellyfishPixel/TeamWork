@@ -10,6 +10,7 @@ namespace TeamWork
         private SpriteBatch _spriteBatch;
         int x = 0;
         int y = 0;
+        Vector2 playerPosition;
         public Game1()
         {
             _graphics = new GraphicsDeviceManager(this);
@@ -19,6 +20,7 @@ namespace TeamWork
         public void PlayerJump()
         {
             y += 2;
+            playerPosition.Y *= y;
         }
         protected override void Initialize()
         {
