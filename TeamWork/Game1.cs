@@ -12,6 +12,7 @@ namespace TeamWork
         Vecter2 playerPosition;
         int y;
 
+        //Milks
         public Game1()
         {
             _graphics = new GraphicsDeviceManager(this);
