@@ -15,6 +15,9 @@ namespace TeamWork
         //Milks
         Texture2D MilkCharacter;
         Texture2D allycolor;
+        Texture2D Map;
+        Vecter2 pos;
+
         public Game1()
         {
             _graphics = new GraphicsDeviceManager(this);
