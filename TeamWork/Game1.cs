@@ -8,7 +8,7 @@ namespace TeamWork
     {
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
-
+        int x = 0;
         public Game1()
         {
             _graphics = new GraphicsDeviceManager(this);
