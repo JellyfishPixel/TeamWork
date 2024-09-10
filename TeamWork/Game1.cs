@@ -9,6 +9,9 @@ namespace TeamWork
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
 
+        Texture2D Map;
+        Vecter2 pos;
+
         public Game1()
         {
             _graphics = new GraphicsDeviceManager(this);
