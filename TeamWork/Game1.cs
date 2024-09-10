@@ -21,6 +21,7 @@ namespace TeamWork
         {
             y += 2;
             playerPosition.Y *= y;
+            playerPosition.X *= x;
         }
         protected override void Initialize()
         {
