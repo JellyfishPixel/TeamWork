@@ -16,7 +16,10 @@ namespace TeamWork
             Content.RootDirectory = "Content";
             IsMouseVisible = true;
         }
-
+        public void PlayerJump()
+        {
+            y += 2;
+        }
         protected override void Initialize()
         {
             // TODO: Add your initialization logic here
